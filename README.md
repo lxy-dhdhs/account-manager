@@ -24,37 +24,3 @@
 下载 `dist/账号仓库管理系统_Setup.exe` 运行安装程序，自动创建桌面快捷方式和开始菜单项。无需安装 Python 或其他运行环境，开箱即用。
 
 支持 Windows 10/11。
-
-## 开发
-
-```bash
-# 运行
-python main.py
-
-# 打包
-pyinstaller 账号仓库管理系统.spec
-
-# 生成安装程序（需要 NSIS）
-makensis installer.nsi
-```
-
-- **Python 3.x** + tkinter
-- **PyInstaller** 打包为 exe
-- **NSIS** 生成安装包
-
-## 数据结构
-
-账号数据存储在 `account_data.json`：
-
-```json
-{
-  "warehouses": {
-    "porsche": ["玩家A", "玩家B"],
-    "balloon": ["玩家C"],
-    "bunny": ["玩家D", "玩家E"]
-  },
-  "queue": [
-    ["porsche", "玩家A", 0]
-  ]
-}
-```
