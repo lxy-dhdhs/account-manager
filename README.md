@@ -21,6 +21,6 @@
 
 ## 安装
 
-下载 `dist/账号仓库管理系统_Setup.exe`或进入网页https://lxy-dhdhs.github.io/account-manager/下载安装程序，运行安装程序，自动创建桌面快捷方式和开始菜单项。无需安装 Python 或其他运行环境，开箱即用。
+下载 `dist/账号仓库管理系统_Setup.exe`或进入网页https://lxy-dhdhs.github.io/account-manager/ 下载安装程序，运行安装程序，自动创建桌面快捷方式和开始菜单项。无需安装 Python 或其他运行环境，开箱即用。
 
 支持 Windows 10/11。
